@@ -1,3 +1,5 @@
+# DAY 20 : LocalStorage and SessionStorage
+
 ## Activity 1: Understanding LocalStorage
 
 ### Task 1: Save and Retrieve a String Value

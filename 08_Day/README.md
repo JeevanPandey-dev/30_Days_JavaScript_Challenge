@@ -1,3 +1,5 @@
+# DAY 8 : ES6+ Features
+
 ## Activity 1: Template Literals
 
 ### Task 1

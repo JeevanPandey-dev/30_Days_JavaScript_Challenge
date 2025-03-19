@@ -1,3 +1,5 @@
+# DAY 12 : Error Handling
+
 ## Activity 1: Basic Error Handling with Try-Catch
 
 **Task 1: Intentional Error Throwing**

@@ -1,3 +1,5 @@
+# DAY 18 : Algorithms 
+
 ### Activity 1: Sorting Algorithms
 
 #### Task 1: Implement Bubble Sort

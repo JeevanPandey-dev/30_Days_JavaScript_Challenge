@@ -1,3 +1,5 @@
+# DAY 15 : Closures
+
 ## Activity 1: Understanding Closures
 
 ### Task 1:

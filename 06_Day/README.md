@@ -1,3 +1,5 @@
+# DAY 6 : Arrays
+
 ## Activity 1: Array Creation and Access
 
 ### Task 1

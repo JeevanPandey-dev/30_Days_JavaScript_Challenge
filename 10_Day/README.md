@@ -1,3 +1,5 @@
+# DAY 10 : Event Handling
+
 ## Activity 1: Basic Event Handling
 
 **Task 1:**  

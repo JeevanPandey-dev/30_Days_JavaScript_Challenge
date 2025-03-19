@@ -1,3 +1,5 @@
+# DAY 5 : Functions
+
 ## Activity 1: Function Declaration
 
 ### Task 1
