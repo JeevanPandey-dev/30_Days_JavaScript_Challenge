@@ -72,6 +72,7 @@ console.log(subtractAssignOperate(15)); //Output : 10
 
 // Task 8: Write a program to compare two numbers using > and < and log the result to the console.
 
+// First Example
 const biggerNum = (number1,number2) => {
     if (number1 > number2) {
         console.log(`Number1 is Greater than Number2`);
@@ -84,25 +85,30 @@ const biggerNum = (number1,number2) => {
 biggerNum(6,6)
 
 
+// Second Example
+const compareStudents = (student1, student2, criteria) => {
+    if (student1[criteria] > student2[criteria]) {
+      return `${student1.name} has a higher ${criteria} than ${student2.name}`;
+    } else if (student1[criteria] < student2[criteria]) {
+      return `${student2.name} has a higher ${criteria} than ${student1.name}`;
+    } else {
+      return `${student1.name} and ${student2.name} have the same ${criteria}`;
+    }
+  }
+  
+  const students = [
+      { name: "Aarav", marks: 95 },
+      { name: "Hardik", marks: 85},
+      { name: "Divyanshu", marks: 95 }
+  ];
+  
+  console.log(compareStudents(students[0], students[1], "marks")); 
+
 // Task 9: Write a program to compare two numbers using >= and <= and log the result to the console. 
 
-const marksObtainedByStudents = {
-    Aarav : 56,
-    Hardik : 65,
-    Divyanshu : 72,
-    Manvik : 84
-} 
 
-const compareNums = (marksObtainedByStudents) => {
-    if (marksObtainedByStudents.Aarav < marksObtainedByStudents.Hardik) {
-        console.log(`Number1 is Greater than Number2`);
-    // } else if (number1 < number2) {
-    //     console.log(`Number1 is Smaller tha Number2`); 
-    } else {
-      console.log(`False Value`);  
-    }
-}
-compareNums()
+
+ 
 
 // Task 10: Write a program to compare two numbers using == and === and log the result to the console.
 
