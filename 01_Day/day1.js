@@ -11,7 +11,7 @@
 
 var numAssign = function() {
     return `You Assigned with Number = ${6}`;
-  };
+  }
   
   console.log(numAssign()); //Output : You Assigned with Number = 6
 
