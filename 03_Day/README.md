@@ -1,5 +1,9 @@
 # DAY 3: CONTROL STRUCTURES
 
+<div align = center>
+<img src="https://cdn.prod.website-files.com/5eb2c3584e1741ad905322a5/66c4da1ae32ba9459e509a78_663fc606456d9f771c1bb7fc_day-3.jpeg" width= 500px>
+</div>
+
 ### Activity 1: If-Else Statements
 
 Task 1: Write a program to check if a number is positive, negative, or zero, and log the result to the console. Task 2: Write a program to check if a person is eligible to vote (age 18) and log the result to the console.

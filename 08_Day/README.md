@@ -1,5 +1,9 @@
 # DAY 8 : ES6+ Features
 
+<div align = center>
+<img src="https://rudyhagood.com/wp-content/uploads/2016/04/day-8-calendar.jpg" width= 500px>
+</div>
+
 ## Activity 1: Template Literals
 
 ### Task 1

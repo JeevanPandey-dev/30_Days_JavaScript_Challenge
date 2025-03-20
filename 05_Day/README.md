@@ -1,5 +1,9 @@
 # DAY 5 : Functions
 
+<div align = center>
+<img src="https://i1.wp.com/pfitblog.com/wp-content/uploads/2015/03/day-5.jpg" width= 500px>
+</div>
+
 ## Activity 1: Function Declaration
 
 ### Task 1

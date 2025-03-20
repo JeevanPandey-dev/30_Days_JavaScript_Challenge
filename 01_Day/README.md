@@ -1,5 +1,8 @@
 # DAY 1: VARIABLES AND DATA TYPES
 
+<div align = center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDt-pxAsi41ke1BJEBnQ797nSP6qBIjAORnQ&s" width= 500px alt="Not Able to Upload image">
+</div>
 <h4>Activity 1: Variable Declaration</h4>
 
 Task 1: Declare a variable using war, assign it a number, and log the value to the console.

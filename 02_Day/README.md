@@ -1,5 +1,9 @@
 # DAY 2 : Operators
 
+<div align = center>
+<img src="https://blog.knoldus.com/wp-content/uploads/2019/11/Selection_844.png">
+</div>
+
 ## Activity 1: Arithmetic Operations
 
 -  Task 1: Write a program to add two numbers and log the result to the console.

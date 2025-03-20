@@ -1,5 +1,9 @@
 # DAY 4 : Loops
 
+<div align = center>
+<img src="https://i0.wp.com/www.lifeway.cc/wp-content/uploads/2019/03/Day4.jpg?fit=513%2C531&ssl=1" width= 500px>
+</div>
+
 ## Activity 1: For Loop
 
 ### Task 1

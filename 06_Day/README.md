@@ -1,5 +1,9 @@
 # DAY 6 : Arrays
 
+<div align = center>
+<img src="https://i0.wp.com/www.lifeway.cc/wp-content/uploads/2019/03/Day6.jpg?ssl=1" width= 500px>
+</div>
+
 ## Activity 1: Array Creation and Access
 
 ### Task 1

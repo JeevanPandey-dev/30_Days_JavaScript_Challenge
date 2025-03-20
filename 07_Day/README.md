@@ -1,5 +1,9 @@
 # DAY 7 : Objects
 
+<div align = center>
+<img src="https://i0.wp.com/www.lifeway.cc/wp-content/uploads/2019/03/day-7.jpg?fit=513%2C531&ssl=1" width= 500px>
+</div>
+
 ## Activity 1: Object Creation and Access
 
 ### Task 1
