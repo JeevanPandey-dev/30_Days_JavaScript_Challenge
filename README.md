@@ -1,5 +1,3 @@
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr8YJ-y0uMpM-TTqEJm7gsFNLFeN5riTjOuw&s" width= 500px>
-
 # 30 Days JavaScript { } Challenge
 JavaScript Exercises for 30 Days
 
