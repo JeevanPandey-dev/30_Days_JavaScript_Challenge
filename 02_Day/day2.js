@@ -106,26 +106,82 @@ const compareStudents = (student1, student2, criteria) => {
 
 // Task 9: Write a program to compare two numbers using >= and <= and log the result to the console. 
 
+let numOne = 5;
+let numTwo = 10;
 
+console.log(`Is NumOne is Greater than Equal to :  ${numOne >= numTwo}`);
+console.log(`Is NumOne is Less than Equal to : ${numOne <= numTwo}`);
 
- 
 
 // Task 10: Write a program to compare two numbers using == and === and log the result to the console.
 
+let numThree = '10'
+console.log(`Is NumOne is Equal to :  ${numThree == numTwo}`); // Checks Values only
 
+console.log(`Is NumOne is Equal to :  ${numThree === numTwo}`); // Checks Value and type
+
+
+//---------------------------------------------------------------------------------------------------------
 
 
 // Activity 4: Logical Operators
 
 // Task 11: Write a program that uses the && operator to combine two conditions and log the result to the console.
-
+//                                                  OR
 // Task 12: Write a program that uses the || operator to combine two conditions and log the result to the console.
-
-// Task 13: Write a program that uses the operator to negate a condition and log the result to the console.
-
-
+//                                                  OR
+// Task 13: Write a program that uses the ! operator to negate a condition and log the result to the console.
 
 
-// Activity 5: Ternary Operator
+function isLeapYear(year) {
+    if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+      return 'Leap Year';
+    } else {
+      return 'Not a Leap Year';
+    }
+  }
+
+  console.log(isLeapYear());
+
 
 // Task 14: Write a program that uses the ternary operator to check if a number is positive or negative and log the result to the console.
+let g = -5;
+let result = g >= 0 ? 'Positive' : 'Negative';
+console.log('Ternary Operator:', result);  // Output: Negative
+
+
+// Feature Request 1: Arithmetic Operations Script
+// Arithmetic Operations Script
+let num1 = 20;
+let num2 = 10;
+
+console.log('Addition:', num1 + num2);
+console.log('Subtraction:', num1 - num2);
+console.log('Multiplication:', num1 * num2);
+console.log('Division:', num1 / num2);
+console.log('Remainder:', num1 % num2);
+
+
+// Feature Request 2: Comparison and Logical Operators Script
+// Comparison and Logical Operators Script
+let x = 10;
+let y = 20;
+
+console.log('Greater Than:', x > y);
+console.log('Less Than:', x < y);
+console.log('Greater Than or Equal:', x >= y);
+console.log('Less Than or Equal:', x <= y);
+console.log('Equality:', x == y);
+console.log('Strict Equality:', x === y);
+
+console.log('Logical AND:', (x < y) && (x > 0));
+console.log('Logical OR:', (x > y) || (x > 0));
+console.log('Logical NOT:', !(x > y));
+
+
+// Feature Request 3: Ternary Operator Script
+// Ternary Operator Script
+
+let number = 5;
+let check = number >= 0 ? 'Positive' : 'Negative';
+console.log('Ternary Operator:', check);  // Output: Positive
