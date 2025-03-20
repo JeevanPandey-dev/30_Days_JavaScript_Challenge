@@ -2,21 +2,44 @@
 
 // Task 1: Write a program to add two numbers and log the result to the console.
 
-function sum(num1,num2) {
-    return num1 +  num2;
-}
-
-console.log(sum(54,60));
+(() => {
+    const addNum =  (num1,num2) => num1 + num2;
+    let sumOfNum = addNum(5,6)
+    console.log(sumOfNum);
+})();
 
 // Task 2: Write a program to subtract two numbers and log the result to the console.
 
+(() => {
+    const subtractNum =  (num1,num2) => num1 - num2;
+    let differenceOfNum = subtractNum(5,6)
+    console.log(differenceOfNum);
+})();
+
 // Task 3: Write a program to multiply two numbers and log the result to the console.
+
+(() => {
+    const multiplyNum =  (num1,num2) => num1 * num2;
+    let productOfNum = multiplyNum(5,6)
+    console.log(productOfNum);
+})();
+
 
 // Task 4: Write a program to divide two numbers and log the result to the console.
 
+(() => {
+    const divideNum = (num1,num2) => num1 / num2;
+    let quotient = divideNum(5,6)
+    console.log(quotient);
+})();
+
 // Task 5: Write a program to find the remainder when one number is divided by another and log the result to the console.
 
-
+(() => {
+    const moduloNum = (num1,num2) => num1 % num2;
+    let modulus = moduloNum(5,6)
+    console.log(modulus);
+})();
 
 // Activity 2: Assignment Operators
 
