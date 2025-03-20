@@ -1,4 +1,6 @@
-# 30 Days JavaScript Challenge
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr8YJ-y0uMpM-TTqEJm7gsFNLFeN5riTjOuw&s" width= 500px>
+
+# 30 Days JavaScript { } Challenge
 JavaScript Exercises for 30 Days
 
 Welcome to my repository for the **30 Days of JavaScript Challenge**! This challenge is hosted by @[hiteshchoudhary](https://github.com/hiteshchoudhary) on [Chai Aur Code](https://www.youtube.com/@chaiaurcode). 
