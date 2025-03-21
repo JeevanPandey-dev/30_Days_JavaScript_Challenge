@@ -15,6 +15,7 @@ function checkingForNum(number) {
 }
 checkingForNum("abc") // Output: abc Not A Number
 
+
 // Task 2: Write a program to check if a person is eligible to vote (age 18) and log the result to the console.
 
 const checkEligibilty = (age) => {
@@ -34,10 +35,44 @@ console.log(checkEligibilty(5)); //Output : Not Eligible to Vote
 // Task 3: Write a program to find the largest of three numbers using nested if-else statements.
 
 
+function largestNumber(num1,num2,num3){
+    if (num1 >= num2) {
+        if (num1 >= num3) {
+            console.log(num1 + ' is the largest number.');
+        } else {
+            console.log(num3 + ' is the largest number.');
+        }
+    } else if (num2 >= num3) {
+        console.log(num2 + ' is the largest number.');
+    } else {
+        console.log(num3 + ' is the largest number.');
+    }
+}
+largestNumber(15,10,20);
+
+
+// Same Question without Nested if-else conditions
+function largeNum(numA,numB,numC) {
+    if (numA > numB && numA > numC) {
+        return `${numA} Is the Largest Number here`
+    } else if (numB > numA && numB > numC) {
+        return `${numB} Is the Largest Number here`
+    } else {
+        return `${numC} Is the Largest Number here`
+    } 
+}
+
+console.log(largeNum(10,12,18));
+
+
+
 
 // Activity 3: Switch Case
 
+
 // Task 4: Write a program that uses a switch case to determine the day of the week based on a number (1-7) and log the day name to the console.
+
+
 
 // Task 5: Write a program that uses a switch case to assign a grade ('A', 'B', C', 'D', 'F) based on a score and log the grade to the console.
 
