@@ -139,6 +139,15 @@ console.log(oddOrEven(5));
 
 // Task 7: Write a program to check if a year is a leap year using multiple conditions (divisible by 4, but not 100 unless also divisible by 400) and log the result to the console.
 
+const leapYear = (year) => {
+    if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+        return `Year ${year} is a Leap Year`
+    } else {
+        return `Not a Leap Year`
+    }
+}
+
+console.log(leapYear(5888));
 
 
 // Feature Request 1: Write a script that checks if a number is positive, negative, or zero using if-else statements and logs the result.
