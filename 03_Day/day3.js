@@ -152,6 +152,23 @@ console.log(leapYear(5888));
 
 // Feature Request 1: Write a script that checks if a number is positive, negative, or zero using if-else statements and logs the result.
 
+let numberIs = 56;
+
+if (numberIs > 0) {
+    console.log(`The Number ${numberIs} is a Positive Number`);
+} else if (numberIs < 0) {
+    console.log(`The Number ${numberIs} is a Negative Number`);
+} else {
+    console.log(`The Number is Equal to zero`); 
+}
 
 
 // Feature Request 2: Create a script to check if a person is eligible to vote based on their age and log the result.
+
+let ageOfPerson = 17;
+
+if (ageOfPerson >= 18) {
+    console.log("Eligible to Vote");
+} else {
+    console.log("Not Eligible to Vote");
+}
