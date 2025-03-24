@@ -2,6 +2,17 @@
 
 //Task 1 Write a function to check if a number is even or odd and log the result to the console.
 
+function checkTheNumbers(numVal) {
+   if (numVal % 2 === 0) {
+    return "The Number is Even";
+   } else {
+    return "The Number is Odd";
+   } 
+}
+
+console.log(checkTheNumbers(5));
+ 
+
 //Task 2 Write a function to calculate the square of a number and return the result.
 
 
