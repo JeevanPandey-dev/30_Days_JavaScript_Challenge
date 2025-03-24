@@ -15,12 +15,22 @@ console.log(checkTheNumbers(5));
 
 //Task 2 Write a function to calculate the square of a number and return the result.
 
-
+function squareOfNum(num) {
+    return num * num ;
+}
+console.log(squareOfNum(5));
 
 
 //Activity 2: Function Expression
 
 //Task 3 Write a function expression to find the maximum of two numbers and log the result to the console.
+
+const calculateMaxNum = function(num1,num2){
+    const maxNum = num1 > num2 ? num1 : num2;
+    console.log(`Max Value between ${num1} and ${num2} is ${maxNum} `);
+}
+calculateMaxNum(20,15)
+
 
 //Task 4 Write a function expression to concatenate two strings and return the result.
 
