@@ -41,6 +41,12 @@ calculateMaxNum(20,15)
 
 //Task 5 Write an arrow function to calculate the sum of two numbers and return the result.
 
+const sumNum = (numOne, numTwo) => {
+    return numOne + numTwo;
+}
+console.log(sumNum(5,4));
+
+
 //Task 6 Write an arrow function to check if a string contains a specific character and return a boolean value.
 
 
